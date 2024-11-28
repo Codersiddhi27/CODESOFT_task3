@@ -1,0 +1,18 @@
+# heading
+print("Mini Calculator")
+num1=float(input("enter the first number: ")) #taking first input from the user
+num2=float(input("enter the second number:")) #taking second input from user
+print("Press 1 for addition \nPress 2 for subtraction \nPress 3 for multiplication \nPress 4 for division") #arithmetic operators
+choice = int (input("enter your choice from 1 to 4: ")) #taking input for operations
+
+if choice == 1:
+    print(num1 + num2)
+elif choice ==2:
+    print(num1-num2)
+elif choice ==3:
+    print(num1*num2)
+elif choice ==4:
+    print(num1/num2)
+else:
+    print("Please! Enter the valid value")
+# end of the program
